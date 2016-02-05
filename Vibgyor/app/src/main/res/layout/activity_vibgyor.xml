@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.venu.vibgyor.Vibgyor"
+    tools:showIn="@layout/activity_vibgyor">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Violet"
+            android:id="@+id/textView1"
+            android:background="#847cf4"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:textSize="40dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Indigo"
+            android:id="@+id/textView2"
+            android:background="#cc000509"
+            android:layout_weight="1"
+            android:textColor="#f8f0f0"
+            android:paddingTop="10dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Blue"
+            android:id="@+id/textView3"
+            android:layout_weight="1"
+            android:background="#1773e2"
+            android:paddingTop="10dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Green"
+            android:id="@+id/textView4"
+            android:layout_weight="1"
+            android:background="#0cd913"
+            android:paddingTop="10dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Yellow"
+            android:id="@+id/textView5"
+            android:layout_weight="1"
+            android:background="#f1df57"
+            android:paddingTop="10dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Orange"
+            android:id="@+id/textView6"
+            android:layout_weight="1"
+            android:background="#eb8a71"
+            android:paddingTop="10dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Red"
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:background="#f21313"
+            android:paddingTop="10dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

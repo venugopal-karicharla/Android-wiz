@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="18">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREATE LIST"
+            android:id="@+id/heading2"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="#fb0c04"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/two"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:background="#8cf4ca">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List Name"
+                android:id="@+id/lname"
+                android:textSize="30dp"
+                android:layout_weight="1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/listname"
+                android:textSize="30dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seven"
+            android:layout_weight="2"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+        <DatePicker
+           android:layout_width="match_parent"
+           android:layout_height="260dp"
+           android:layout_marginTop="15dp"
+           android:paddingLeft="15dp"
+           android:id="@+id/datePicker"
+           android:background="#e5c7c7" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save list"
+                android:id="@+id/savelist"
+                android:textSize="20dp"
+                android:background="@android:color/holo_green_dark"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/datePicker"
+                android:onClick="saveListMethod"
+            android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal" />
+        <Button
+                android:id="@+id/BacktoMainList"
+                android:background="@android:color/holo_green_dark"
+                android:onClick="backToActivityMain"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/savelist"
+                android:text="Back to Main List"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+        </RelativeLayout>
+</LinearLayout>
